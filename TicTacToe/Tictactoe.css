@@ -1,0 +1,22 @@
+#board{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40vw;
+    height: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sq{
+    border: solid black 1px;
+    border-radius: 1%;
+    width: 33%;
+    height: 33%;
+    margin-left:0.75px;
+    margin-right: 0.75px;
+}
+.sq:hover{
+    background-color: aliceblue;
+}
+h1{
+    text-align: center;
+}
